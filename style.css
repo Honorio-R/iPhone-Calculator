@@ -65,20 +65,25 @@ margin-top: 50px;
 width: 400px;
 border: 2px var(--border) solid;
 border-radius: 15px;
-padding: 20px;
+padding: 5px;
 background-color: var(--calculator);
+}
+
+.inner-border{
+    padding: 10px ;
+    border: 2px var(--border) solid;
+    border-radius: 10px;
 }
 
 .screen {
 padding: 10px 20px;
-border: 2px var(--border) solid;
-border-radius: 5px;
 margin-bottom: 20px;
 background-color: var(--screen);
 text-align: right;
 word-wrap: break-word;
 word-break: break-all;
 }
+
 
 .screen-last {
 min-height: 32px;
