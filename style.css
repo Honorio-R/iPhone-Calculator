@@ -90,10 +90,12 @@
     font-size: 40px;
   }
   
-  .buttons-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+  .buttons-layout {
+    width: 357.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
   
   .span-2 {
@@ -117,6 +119,11 @@
     background-color: var(--btn-active);
   }
 
+  .btn-zero{
+    width: 155px;
+    border-radius: 20px;
+  }
+
   .btn-symbol {
     background-color: var(--btn-orange);
     font-weight: 900;
@@ -134,6 +141,8 @@
   }
   
   .btn-gray {
+    width: 117.5px;
+    border-radius: 20px;
     background-color: var(--btn-gray);
     color: var(--font-gray);
   }
