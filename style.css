@@ -158,7 +158,6 @@ color: var(--font-gray);
 
 /* FOOTER DESIGN */
 #footer{
-    margin-top: auto;
     height: 50px;
     font-size: small;
     font-weight: bolder;

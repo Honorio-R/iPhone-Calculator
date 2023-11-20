@@ -60,6 +60,9 @@ function appendPoint() {
 
 function deleteNumber() {
     currentOperationScreen.textContent = currentOperationScreen.textContent.toString().slice(0, -1);
+    if (currentOperationScreen.textContent === '') {
+        currentOperationScreen.textContent = '0';
+    }
 }
 
 function setOperation(operator) {
