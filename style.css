@@ -76,6 +76,7 @@ background-color: var(--calculator);
 }
 
 .screen {
+height: 130px;
 padding: 10px 20px;
 margin-bottom: 20px;
 background-color: var(--screen);
@@ -91,8 +92,8 @@ font-size: 20px;
 }
 
 .screen-current {
-min-height: 64px;
-font-size: 40px;
+min-height: 69px;
+font-size: 45px;
 }
 
 .buttons-layout {
